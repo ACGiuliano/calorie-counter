@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a5P27iN9WH+IyKOvcehsDhjmWwp1BhtgcbLy3FxecFQmbs2DbDs57qWt3BiIG1I2B+9KiJIQjdG/e0EanX3Srw==",
+  "dgSpecHash": "7YoLfS9SjxxdgGE/gJWzlS2flzcPE9z/b8vrAC425qEjRh8BdZH41wLOJ4q/Io3oJeqTbvyDkjF5G3urNKQ7wA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Antho\\OneDrive\\Documents\\Misc Programming Projects\\CsharpProjects\\CalCounter\\CalorieCounter\\CalorieCounter.csproj",
+  "projectFilePath": "C:\\Users\\Antho\\OneDrive\\Documents\\Misc Programming Projects\\CsharpProjects\\CalCounter\\calorie-counter\\CalCounter\\CalorieCounter\\CalorieCounter.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -15,7 +15,7 @@ double breakfastCalories;
 double lunchCalories;
 double dinnerCalories;
 
-Console.WriteLine("Please insert your weight: ");
+Console.WriteLine("Please insert your weight in pounds: ");
 
 do
 {  
@@ -27,5 +27,13 @@ do
         weightString = Console.ReadLine();
     }
 
+    if (Decimal.TryParse(weightString, out userWeight))
+    {
+        weightValid = true;
+    }
+    else
+    {
+        Console.WriteLine($"INVALID. {weightString} is not a number, please enter current weight: ");
+    }
 
 } while (!weightValid);

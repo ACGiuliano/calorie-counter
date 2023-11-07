@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Antho\\OneDrive\\Documents\\Misc Programming Projects\\CsharpProjects\\CalCounter\\CalorieCounter\\CalorieCounter.csproj": {}
+    "C:\\Users\\Antho\\OneDrive\\Documents\\Misc Programming Projects\\CsharpProjects\\CalCounter\\calorie-counter\\CalCounter\\CalorieCounter\\CalorieCounter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Antho\\OneDrive\\Documents\\Misc Programming Projects\\CsharpProjects\\CalCounter\\CalorieCounter\\CalorieCounter.csproj": {
+    "C:\\Users\\Antho\\OneDrive\\Documents\\Misc Programming Projects\\CsharpProjects\\CalCounter\\calorie-counter\\CalCounter\\CalorieCounter\\CalorieCounter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Antho\\OneDrive\\Documents\\Misc Programming Projects\\CsharpProjects\\CalCounter\\CalorieCounter\\CalorieCounter.csproj",
+        "projectUniqueName": "C:\\Users\\Antho\\OneDrive\\Documents\\Misc Programming Projects\\CsharpProjects\\CalCounter\\calorie-counter\\CalCounter\\CalorieCounter\\CalorieCounter.csproj",
         "projectName": "CalorieCounter",
-        "projectPath": "C:\\Users\\Antho\\OneDrive\\Documents\\Misc Programming Projects\\CsharpProjects\\CalCounter\\CalorieCounter\\CalorieCounter.csproj",
+        "projectPath": "C:\\Users\\Antho\\OneDrive\\Documents\\Misc Programming Projects\\CsharpProjects\\CalCounter\\calorie-counter\\CalCounter\\CalorieCounter\\CalorieCounter.csproj",
         "packagesPath": "C:\\Users\\Antho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Antho\\OneDrive\\Documents\\Misc Programming Projects\\CsharpProjects\\CalCounter\\CalorieCounter\\obj\\",
+        "outputPath": "C:\\Users\\Antho\\OneDrive\\Documents\\Misc Programming Projects\\CsharpProjects\\CalCounter\\calorie-counter\\CalCounter\\CalorieCounter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Antho\\AppData\\Roaming\\NuGet\\NuGet.Config"

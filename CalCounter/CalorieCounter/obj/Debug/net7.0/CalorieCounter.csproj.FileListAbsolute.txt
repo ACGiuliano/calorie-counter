@@ -1,0 +1,14 @@
+C:\Users\Antho\OneDrive\Documents\Misc Programming Projects\CsharpProjects\CalCounter\calorie-counter\CalCounter\CalorieCounter\bin\Debug\net7.0\CalorieCounter.exe
+C:\Users\Antho\OneDrive\Documents\Misc Programming Projects\CsharpProjects\CalCounter\calorie-counter\CalCounter\CalorieCounter\bin\Debug\net7.0\CalorieCounter.deps.json
+C:\Users\Antho\OneDrive\Documents\Misc Programming Projects\CsharpProjects\CalCounter\calorie-counter\CalCounter\CalorieCounter\bin\Debug\net7.0\CalorieCounter.runtimeconfig.json
+C:\Users\Antho\OneDrive\Documents\Misc Programming Projects\CsharpProjects\CalCounter\calorie-counter\CalCounter\CalorieCounter\bin\Debug\net7.0\CalorieCounter.dll
+C:\Users\Antho\OneDrive\Documents\Misc Programming Projects\CsharpProjects\CalCounter\calorie-counter\CalCounter\CalorieCounter\bin\Debug\net7.0\CalorieCounter.pdb
+C:\Users\Antho\OneDrive\Documents\Misc Programming Projects\CsharpProjects\CalCounter\calorie-counter\CalCounter\CalorieCounter\obj\Debug\net7.0\CalorieCounter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Antho\OneDrive\Documents\Misc Programming Projects\CsharpProjects\CalCounter\calorie-counter\CalCounter\CalorieCounter\obj\Debug\net7.0\CalorieCounter.AssemblyInfoInputs.cache
+C:\Users\Antho\OneDrive\Documents\Misc Programming Projects\CsharpProjects\CalCounter\calorie-counter\CalCounter\CalorieCounter\obj\Debug\net7.0\CalorieCounter.AssemblyInfo.cs
+C:\Users\Antho\OneDrive\Documents\Misc Programming Projects\CsharpProjects\CalCounter\calorie-counter\CalCounter\CalorieCounter\obj\Debug\net7.0\CalorieCounter.csproj.CoreCompileInputs.cache
+C:\Users\Antho\OneDrive\Documents\Misc Programming Projects\CsharpProjects\CalCounter\calorie-counter\CalCounter\CalorieCounter\obj\Debug\net7.0\CalorieCounter.dll
+C:\Users\Antho\OneDrive\Documents\Misc Programming Projects\CsharpProjects\CalCounter\calorie-counter\CalCounter\CalorieCounter\obj\Debug\net7.0\refint\CalorieCounter.dll
+C:\Users\Antho\OneDrive\Documents\Misc Programming Projects\CsharpProjects\CalCounter\calorie-counter\CalCounter\CalorieCounter\obj\Debug\net7.0\CalorieCounter.pdb
+C:\Users\Antho\OneDrive\Documents\Misc Programming Projects\CsharpProjects\CalCounter\calorie-counter\CalCounter\CalorieCounter\obj\Debug\net7.0\CalorieCounter.genruntimeconfig.cache
+C:\Users\Antho\OneDrive\Documents\Misc Programming Projects\CsharpProjects\CalCounter\calorie-counter\CalCounter\CalorieCounter\obj\Debug\net7.0\ref\CalorieCounter.dll
