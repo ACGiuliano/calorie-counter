@@ -9,6 +9,8 @@
 decimal userWeight;
 string? weightString;
 
+decimal maxCalories;
+
 bool weightValid = false;
 
 double breakfastCalories;
@@ -29,6 +31,8 @@ do
 
     if (Decimal.TryParse(weightString, out userWeight))
     {
+        Console.WriteLine($"Input Accepted. Weight set at {userWeight}lbs");
+        Console.WriteLine();
         weightValid = true;
     }
     else
@@ -37,3 +41,8 @@ do
     }
 
 } while (!weightValid);
+
+maxCalories = userWeight * 12;
+
+Console.WriteLine(@$"Based on your current weight of {userWeight}lbs, your maximum caloric intake is {maxCalories} calories.
+This will maintain your current weight.");
