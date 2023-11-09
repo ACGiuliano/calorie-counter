@@ -16,7 +16,7 @@ bool weightValid = false;
 double breakfastCalories;
 double lunchCalories;
 double dinnerCalories;
-double totalCalories;
+double totalCalories = 0;
 
 Console.WriteLine("Please insert your weight in pounds: ");
 
@@ -54,6 +54,7 @@ Console.WriteLine("Please enter the number of calories eaten for breakfast.");
 
 bool breakfastValid = false;
 
+// loop for breakfast input
 do
 {
     string? breakfastInput = Console.ReadLine();
@@ -62,6 +63,27 @@ do
     {
         Console.WriteLine("INVALID. Please enter a value for total breakfast calories.");
         breakfastInput = Console.ReadLine();
+    }
+
+    if (Double.TryParse(breakfastInput, out breakfastCalories))
+    {
+        // validating if calorie value is positive number
+        if (breakfastCalories < 0)
+        {
+            Console.WriteLine("INVALID. Calories must be a positive number. Please enter breakfast calories eaten.");
+            break;
+        }
+        else if (breakfastCalories >= 0)
+        {
+            Console.WriteLine($"Breakfast calories {breakfastCalories}.");
+            Console.WriteLine();
+            totalCalories += breakfastCalories;
+            breakfastValid = true;
+        }
+    }
+    else 
+    {
+        Console.WriteLine($"{breakfastInput} is not a valid response. Please enter a valid number.");
     }
 
 } while (breakfastValid == false);
