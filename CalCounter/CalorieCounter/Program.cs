@@ -8,8 +8,11 @@
 
 decimal userWeight;
 string? weightString;
+string? userMeal;
+string currentMeal;
 
 decimal maxCalories;
+int mealInput;
 
 bool weightValid = false;
 
@@ -50,11 +53,45 @@ This will maintain your current weight.");
 
 Console.WriteLine(); // add line break for ease of reading
 
-Console.WriteLine("Please enter the number of calories eaten for breakfast.");
+Console.WriteLine(@"Please enter a digit 1-4 to select which of the below meals you wish to add calories to:
+                    1. Breakfast
+                    2. Lunch
+                    3. Dinner
+                    4. Snacks");
 
-bool breakfastValid = false;
+userMeal = Console.ReadLine();
 
-// loop for breakfast input
+bool isValid = int.TryParse(userMeal, out mealInput);
+
+while (isValid = false || mealInput > 4 || mealInput < 1)
+{
+    Console.WriteLine("INVALID INPUT. Please select one of the above options using numbers 1-4");
+    isValid = int.TryParse(Console.ReadLine(), out mealInput);
+}
+
+switch (mealInput)
+{
+    case 1:
+        currentMeal = "Breakfast";
+        break;
+    case 2:
+        currentMeal = "Lunch";
+        break;
+    case 3:
+        currentMeal = "Dinner";
+        break;
+    case 4:
+        currentMeal = "Snack";
+        break;
+}
+
+breakfastCalories = CalAdd("Breakfast");
+
+
+
+
+/*
+* outdated loop now that method implemented 
 do
 {
     string? breakfastInput = Console.ReadLine();
@@ -87,3 +124,46 @@ do
     }
 
 } while (breakfastValid == false);
+
+Console.WriteLine($"So far you have consumed {totalCalories} calories.");
+*/
+
+static double CalAdd(string meal)
+{
+    bool validInput = false;
+    double caloriesAdded = 0;
+    string? calorieString;
+
+    do
+    {
+        calorieString = Console.ReadLine();
+
+        while (calorieString == null || calorieString.Length == 0)
+        {
+            Console.WriteLine("INVALID. Please enter a value for calories consumed.");
+            calorieString = Console.ReadLine();
+        }
+
+        if (Double.TryParse(calorieString, out caloriesAdded))
+        {
+            if (caloriesAdded < 0)
+            {
+                Console.WriteLine($"{caloriesAdded} not a valid number. Please enter a positive number for calories eaten.");
+                break;
+            }
+            else if (caloriesAdded >= 0)
+            {
+                Console.WriteLine($"{meal} calories added: {caloriesAdded}");
+                Console.WriteLine();
+                validInput = true;
+            }
+        }
+        else
+        {
+            Console.WriteLine($"{calorieString} is not a valid response. Please enter a valid number.");
+        }
+    } while (validInput == false);
+
+
+    return caloriesAdded;
+}
